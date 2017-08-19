@@ -13,7 +13,51 @@
 		<link rel="stylesheet" type="text/css" href="css/love.css"/>
 		<!-- Demo styles -->
 		<script type="text/javascript" src="js/swiper.animate1.0.2.min.js"></script>
-	
+	<style type="text/css">
+		.zeroImg img{
+			width: 130px;
+			height: 130px;
+			/*border-radius: 50%;*/
+		}
+		.zeroImg {
+			margin-top: 20px;
+			position: relative;
+			height: 400px;
+		}
+		.zeroImg img:nth-child(1){
+			position: absolute;
+			top: 10px;
+			left: 20px;
+			/*transform:rotate(45deg)*/
+		}
+		.zeroImg img:nth-child(2){
+			position: absolute;
+			top: 111px;
+			left: 100px;
+			/*transform:rotate(20deg)*/
+		}
+		.zeroImg img:nth-child(3){
+			position: absolute;
+			top: 255px;
+			left: 60px;
+		}
+		.zeroImg img:nth-child(4){
+			position: absolute;
+			top: 186px;
+			left: 234px;
+		}
+		.zeroImg img:nth-child(5){
+			position: absolute;
+			top: 6px;
+			left: 234px;
+			
+		}
+		.zeroWords{
+			margin-top: 20px;
+			text-align: center;
+			text-shadow:0 0 10px #0CC;  
+		}
+	</style>
 	</head>
 
 	<body>
@@ -21,12 +65,15 @@
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide bg ">
-					<div class="ani zore" swiper-animate-effect="fadeIn" swiper-animate-duration="6s">
-						<p>亲</p>
-						<p>爱</p>
-						<p>的</p>
-						<p>宝</p>
-						<p>宝</p>	
+					<div class="zeroImg">
+						<img src="img/zhaopian/13.jpg"/>
+						<img src="img/zhaopian/11.jpg"/>
+						<img src="img/zhaopian/12.jpg"/>
+						<img src="img/zhaopian/14.jpg"/>
+						<img src="img/zhaopian/5.jpg"/>
+					</div>
+					<div class="zeroWords">
+						亲爱的宝宝，永远开心快乐
 					</div>
 					<div class="zore1 ani infinite" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s">
 						<p><img src="img/next.jpg"/></p>
