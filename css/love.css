@@ -187,3 +187,31 @@ html,
 				margin: 10px;
 			}
 			
+
+		.three p{
+			text-align: center;
+			font-size: 18px;
+			padding: 0px 10px;
+			text-shadow:0 0 10px #0CC;  
+		}
+		.three .Bimg{
+			
+		}
+		.three .Bimg img{
+			width: 130px;
+			height: 130px;
+			border-radius: 50%;
+		}
+		
+		.three .Bimg1{
+			position: absolute;
+			top: 10px;
+			left: 20px;
+			
+		}
+		.three .Bimg2{
+			position: absolute;
+			top: 10px;
+			left: 200px;
+			
+		}
