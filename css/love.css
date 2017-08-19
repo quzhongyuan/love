@@ -33,6 +33,49 @@ html,
 				width: 30px;
 				height: 10px;
 			}
+			.zeroImg img{
+			width: 130px;
+			height: 130px;
+			/*border-radius: 50%;*/
+		}
+		.zeroImg {
+			margin-top: 20px;
+			position: relative;
+			height: 400px;
+		}
+		.zeroImg img:nth-child(1){
+			position: absolute;
+			top: 10px;
+			left: 20px;
+			/*transform:rotate(45deg)*/
+		}
+		.zeroImg img:nth-child(2){
+			position: absolute;
+			top: 111px;
+			left: 100px;
+			/*transform:rotate(20deg)*/
+		}
+		.zeroImg img:nth-child(3){
+			position: absolute;
+			top: 255px;
+			left: 60px;
+		}
+		.zeroImg img:nth-child(4){
+			position: absolute;
+			top: 186px;
+			left: 234px;
+		}
+		.zeroImg img:nth-child(5){
+			position: absolute;
+			top: 6px;
+			left: 234px;
+			
+		}
+		.zeroWords{
+			margin-top: 20px;
+			text-align: center;
+			text-shadow:0 0 10px #0CC;  
+		}
 			.clearfix:after {
 				content: '';
 				clear: both;
